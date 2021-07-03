@@ -9,7 +9,7 @@
     <title>Mizuxe</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light py-4">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light py-4">
         <div class="container">
             <a class="navbar-brand" href="#home">
                 <picture>
@@ -41,12 +41,12 @@
     </nav>
     <!-- ./nav -->
 
-    <section id="showcase" class="py-5">
+    <section id="showcase" class="showcase">
         <div class="primary-overlay text-white">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 text-center">
-                        <h1 class="display-2 mt-5 pt-5">
+                        <h1 class="display-2 showcase__title">
                             Do What You Dream Of...
                         </h1>
                         <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium.</p>
@@ -64,7 +64,315 @@
             </div>
         </div>
     </section>
-    <!-- /#showcase.py-5 -->
+    <!-- /#showcase -->
+
+    <section id="newsletter" class="newsletter">
+        <div class="container">
+            <form class="row g-3">
+                <div class="col-md-4">
+                    <input name="newsletter[name]" type="text" class="form-control form-control-lg" id="newsletterName" placeholder="Enter name">
+                </div>
+                <div class="col-md-4">
+                    <input name="newsletter[email]" type="email" class="form-control form-control-lg" id="newsletterEmail" placeholder="Enter email">
+                </div>
+                <div class="col-md-4">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-lg btn__primary" type="submit">
+                            <i class="fas fa-envelope-open-o"></i> Subscribe
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- /#newsletter -->
+
+    <section id="boxes" class="boxes">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card__title">Be Better</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, harum!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card--dark">
+                        <div class="card-body">
+                            <h3 class="card__title">Be Smarter</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, harum!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card__title">Be Faster</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, harum!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card--dark">
+                        <div class="card-body">
+                            <h3 class="card__title">Be Stronger</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, harum!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /#boxes.boxes -->
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="about__header">
+                        <h1 class="about__title">
+                            Why This Book?
+                        </h1>
+                        <p class="lead about__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore quaerat non praesentium labore sint deserunt?</p>
+                    </div>
+
+                    <div class="accordion accordion-flush" id="accordion">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Get Inspired
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum eum maxime perferendis porro similique nam, accusantium facere magnam alias. Repudiandae ipsum soluta quasi? Iste voluptate tenetur cupiditate amet temporibus nesciunt, aliquid molestiae illum mollitia ipsum vel quidem sequi, recusandae rerum laboriosam laudantium dicta quam magni quisquam fugiat. Doloremque, suscipit?
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Gain The Knowledge
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis error sint, voluptates labore dolor aut expedita! Obcaecati praesentium eius libero cupiditate maxime quae deleniti sint minima magni facere nesciunt aliquam, repellat atque voluptate officiis illum optio? Nemo sequi accusamus nobis modi mollitia a, molestiae soluta saepe culpa eius pariatur quasi.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Open Your Mind
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, autem quibusdam quam corrupti cum inventore iste ea exercitationem sit eos nesciunt placeat quia repudiandae quas accusantium nam dolorum corporis magnam eligendi excepturi? Impedit inventore voluptatum error in consectetur laborum iusto odio excepturi, debitis deleniti quos praesentium sunt minus fugit molestias.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /#about.about -->
+
+    <section id="authors" class="authors">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="authors__header">
+                        <h1 class="authors__title">Meet The Authors</h1>
+                        <p class="lead authors__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat voluptatum ullam veniam enim voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card authors__card">
+                        <div class="card-body">
+                            <picture>
+                                <source srcset="img/person1.webp">
+                                <img src="img/person1.jpg" alt="" class="img-fliud authors__img">
+                            </picture>
+                            <h3>Susan Williams</h3>
+                            <h5 class="authors__job">Lead Writer</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, delectus nostrum saepe magni soluta quaerat.</p>
+                            <ul class="authors__socials socials">
+                                <li class="socials__item">
+                                    <a href="https://facebook.com" class="socials__link">
+                                        <i class="fab fa-facebook socials__icon"></i>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="https://twitter.com" class="socials__link">
+                                        <i class="fab fa-twitter socials__icon"></i>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="https://instagram.com" class="socials__link">
+                                        <i class="fab fa-instagram socials__icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card authors__card">
+                        <div class="card-body">
+                            <picture>
+                                <source srcset="img/person2.webp">
+                                <img src="img/person2.jpg" alt="" class="img-fliud authors__img">
+                            </picture>
+                            <h3>Jaida Fox</h3>
+                            <h5 class="authors__job">Co-Writer</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, delectus nostrum saepe magni soluta quaerat.</p>
+                            <ul class="authors__socials socials">
+                                <li class="socials__item">
+                                    <a href="https://facebook.com" class="socials__link">
+                                        <i class="fab fa-facebook socials__icon"></i>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="https://twitter.com" class="socials__link">
+                                        <i class="fab fa-twitter socials__icon"></i>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="https://instagram.com" class="socials__link">
+                                        <i class="fab fa-instagram socials__icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card authors__card">
+                        <div class="card-body">
+                            <picture>
+                                <source srcset="img/person3.webp">
+                                <img src="img/person3.jpg" alt="" class="img-fliud authors__img">
+                            </picture>
+                            <h3>Sergio Randolph</h3>
+                            <h5 class="authors__job">Editor</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, delectus nostrum saepe magni soluta quaerat.</p>
+                            <ul class="authors__socials socials">
+                                <li class="socials__item">
+                                    <a href="https://facebook.com" class="socials__link">
+                                        <i class="fab fa-facebook socials__icon"></i>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="https://twitter.com" class="socials__link">
+                                        <i class="fab fa-twitter socials__icon"></i>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="https://instagram.com" class="socials__link">
+                                        <i class="fab fa-instagram socials__icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card authors__card">
+                        <div class="card-body">
+                            <picture>
+                                <source srcset="img/person4.webp">
+                                <img src="img/person4.jpg" alt="" class="img-fliud authors__img">
+                            </picture>
+                            <h3>Marshall Bishop</h3>
+                            <h5 class="authors__job">Designer</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, delectus nostrum saepe magni soluta quaerat.</p>
+                            <ul class="authors__socials socials">
+                                <li class="socials__item">
+                                    <a href="https://facebook.com" class="socials__link">
+                                        <i class="fab fa-facebook socials__icon"></i>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="https://twitter.com" class="socials__link">
+                                        <i class="fab fa-twitter socials__icon"></i>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="https://instagram.com" class="socials__link">
+                                        <i class="fab fa-instagram socials__icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /#authors.authors -->
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h3>Get In Touch</h3>
+                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, aut!</p>
+                    <form id="contact-form" class="needs-validation" novalidate>
+                        <div class="input-group input-group-lg flex-nowrap my-3">
+                            <span class="input-group-text" id="name">
+                                <i class="fas fa-user"></i>
+                            </span>
+                            <input name="contact[name]" type="text" class="form-control" placeholder="Name" required aria-label="Name" aria-describedby="name">
+                        </div>
+        
+                        <div class="input-group input-group-lg flex-nowrap my-3">
+                            <span class="input-group-text" id="email">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <input name="contact[email]" type="email" class="form-control" placeholder="E-mail" required aria-label="Email" aria-describedby="email">
+                        </div>
+        
+                        <div class="input-group input-group-lg flex-nowrap my-3">
+                            <span class="input-group-text" id="msg">
+                                <i class="fas fa-pencil-alt"></i>
+                            </span>
+                            <textarea name="contact[massage]" class="form-control" placeholder="Message" required aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn__primary btn-lg ">submit</button>
+                        </div>
+                    </form>    
+                </div>
+                <div class="col-lg-3 align-self-center">
+                    <picture>
+                        <source srcset="img/mlogo.webp">
+                        <img class="img-fluid" src="img/mlogo.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /#contact.contact -->
+
+    <footer id="footer" class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <p class="lead">Copyright &copy; <span id="year">2020</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /#footer.main-footer -->
 
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>

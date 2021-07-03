@@ -1,0 +1,14 @@
+.boxes {
+    @include section();
+
+    .card {
+        text-align: center;
+        border: 1px solid $primary;
+        color: $primary;
+
+        &--dark {
+            background: $primary;
+            color: $white;
+        }
+    }
+}

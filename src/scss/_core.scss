@@ -1,3 +1,20 @@
 body {
     margin-top: 105px;
 }
+
+.btn {
+    
+    &__primary {
+        background: $primary;
+        border-color: $primary;
+        color: $white;    
+        text-transform: capitalize;
+
+        &:hover {
+            background-color: darken($primary, 5%);
+            border-color: darken($primary, 5%);
+            color: $white;    
+        }
+    }
+
+}

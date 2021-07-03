@@ -1,0 +1,65 @@
+.authors {
+    @include section();
+    margin-top: $spacer * 3;
+    margin-bottom: $spacer * 3;
+    text-align: center;
+
+    &__header {
+        margin-bottom: $spacer * 6;
+    }
+
+    &__title {
+        padding-bottom: $spacer;
+        color: $primary;
+    }
+
+    &__card {
+
+        &:hover {
+            background: $primary;
+            color: $white;
+
+            .authors__job,
+            .socials__icon {
+                color: $white;
+            }
+        }
+    }
+
+    &__img {
+        margin-top: -90px;
+        margin-bottom: $spacer;
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    &__job {
+        color: $gray-600;
+    }
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+
+    &__item {
+        padding: $spacer * 1.5;
+    }
+
+    &__icon {
+        color: $primary;
+        font-size: $font-size-base * 2;
+    }
+}
+
+@media (max-width: 992px) {
+    
+    .authors {
+
+        &__img {
+            margin-top: 0;
+        }
+    }
+}

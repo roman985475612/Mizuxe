@@ -1,0 +1,29 @@
+.about {
+    @include section();
+    text-align: center;
+    background-color: $light;
+
+    &__header {
+        margin-bottom: $spacer * 3;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+        border-bottom: 1px solid #ddd;
+    }
+
+    &__title {
+        padding-bottom: $spacer;
+        color: $primary;
+    }
+
+    &__text {
+        padding-bottom: $spacer;
+    }
+}
+
+.accordion {
+    &-header button {
+        font-weight: bold;
+        text-align: center;
+    }
+}
