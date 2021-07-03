@@ -21,9 +21,23 @@
     }
 }
 
-.accordion {
-    &-header button {
-        font-weight: bold;
-        text-align: center;
+.accord {
+
+    .card {
+        
+        &-header {
+            color: $primary;
+            font-size: $font-size-base * 1.75;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        &-body {
+            color: $primary;
+            font-size: $font-size-base * 1.25;
+            cursor: default;
+        }
     }
+
 }
